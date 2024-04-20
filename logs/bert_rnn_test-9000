@@ -1,0 +1,21 @@
+[2024-04-17 00:09:43,869 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_rnn/model_step_9000.pt
+[2024-04-17 00:09:46,297 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-17 00:09:46,300 INFO] * number of parameters: 113041921
+[2024-04-17 00:10:22,503 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2024-04-17 00:10:58,303 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2024-04-17 00:11:34,252 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2024-04-17 00:12:10,047 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2024-04-17 00:12:45,857 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2024-04-17 00:13:13,491 INFO] Writing summaries.
+[2024-04-17 00:13:13,491 INFO] Processing summaries. Saving system files to ../temp/tmpvuzxfha7/system and model files to ../temp/tmpvuzxfha7/model.
+[2024-04-17 00:13:13,491 INFO] Processing files in ../temp/rouge-tmp-2024-04-17-00-13-12/candidate/.
+[2024-04-17 00:13:14,117 INFO] Saved processed files to ../temp/tmpvuzxfha7/system.
+[2024-04-17 00:13:14,118 INFO] Processing files in ../temp/rouge-tmp-2024-04-17-00-13-12/reference/.
+[2024-04-17 00:13:14,746 INFO] Saved processed files to ../temp/tmpvuzxfha7/model.
+[2024-04-17 00:13:14,800 INFO] Written ROUGE configuration to ../temp/tmphtqa0fwm/rouge_conf.xml
+[2024-04-17 00:13:14,800 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmphtqa0fwm/rouge_conf.xml
+[2024-04-17 00:13:54,962 INFO] Rouges at step 9000 
+>> ROUGE-F(1/2/3/l): 42.21/19.51/38.66
+ROUGE-R(1/2/3/l): 53.72/24.85/49.15
+
+[2024-04-17 00:13:54,962 INFO] Validation xent: 5.51987 at step 9000

@@ -1,0 +1,39 @@
+[2024-04-10 18:04:23,971 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_10000.pt
+[2024-04-10 18:05:02,313 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_10000.pt
+[2024-04-12 16:56:58,693 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 16:57:23,279 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 16:57:43,364 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 16:57:45,952 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 16:57:45,955 INFO] * number of parameters: 109483009
+[2024-04-12 16:58:06,545 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 16:58:09,084 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 16:58:09,087 INFO] * number of parameters: 109483009
+[2024-04-12 16:58:32,553 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2024-04-12 16:58:55,456 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2024-04-12 16:59:18,549 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2024-04-12 16:59:41,694 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2024-04-12 17:00:04,877 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2024-04-12 17:00:22,427 INFO] Writing summaries.
+[2024-04-12 17:00:22,427 INFO] Processing summaries. Saving system files to ../temp/tmp4j4xbi30/system and model files to ../temp/tmp4j4xbi30/model.
+[2024-04-12 17:00:22,427 INFO] Processing files in ../temp/rouge-tmp-2024-04-12-17-00-22/candidate/.
+[2024-04-12 17:00:22,701 INFO] Saved processed files to ../temp/tmp4j4xbi30/system.
+[2024-04-12 17:00:22,702 INFO] Processing files in ../temp/rouge-tmp-2024-04-12-17-00-22/reference/.
+[2024-04-12 17:00:22,969 INFO] Saved processed files to ../temp/tmp4j4xbi30/model.
+[2024-04-12 17:00:23,000 INFO] Written ROUGE configuration to ../temp/tmpmuuhuvx7/rouge_conf.xml
+[2024-04-12 17:00:23,000 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmpmuuhuvx7/rouge_conf.xml
+[2024-04-12 17:01:03,909 INFO] Rouges at step 10000 
+>> ROUGE-F(1/2/3/l): 42.45/19.64/38.86
+ROUGE-R(1/2/3/l): 53.60/24.82/49.02
+
+[2024-04-12 17:01:03,909 INFO] Validation xent: 5.48018 at step 10000
+[2024-04-12 17:03:48,197 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 17:03:50,802 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 17:04:42,238 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 17:04:44,100 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 17:04:44,106 INFO] * number of parameters: 109483009
+[2024-04-12 20:46:04,250 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 20:46:07,106 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 20:46:07,115 INFO] * number of parameters: 109483009
+[2024-04-12 20:52:28,082 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier/model_step_10000.pt
+[2024-04-12 20:52:30,770 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-12 20:52:30,780 INFO] * number of parameters: 109483009

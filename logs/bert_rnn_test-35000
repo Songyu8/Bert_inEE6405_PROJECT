@@ -1,0 +1,21 @@
+[2024-04-20 11:59:44,850 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_rnn_35000/model_step_35000.pt
+[2024-04-20 11:59:47,639 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-20 11:59:47,643 INFO] * number of parameters: 113041921
+[2024-04-20 12:00:09,884 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2024-04-20 12:00:31,662 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2024-04-20 12:00:53,549 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2024-04-20 12:01:15,485 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2024-04-20 12:01:37,421 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2024-04-20 12:01:54,331 INFO] Writing summaries.
+[2024-04-20 12:01:54,332 INFO] Processing summaries. Saving system files to ../temp/tmpb63f5knj/system and model files to ../temp/tmpb63f5knj/model.
+[2024-04-20 12:01:54,332 INFO] Processing files in ../temp/rouge-tmp-2024-04-20-12-01-53/candidate/.
+[2024-04-20 12:01:54,843 INFO] Saved processed files to ../temp/tmpb63f5knj/system.
+[2024-04-20 12:01:54,844 INFO] Processing files in ../temp/rouge-tmp-2024-04-20-12-01-53/reference/.
+[2024-04-20 12:01:55,112 INFO] Saved processed files to ../temp/tmpb63f5knj/model.
+[2024-04-20 12:01:55,143 INFO] Written ROUGE configuration to ../temp/tmp6j8kjzm1/rouge_conf.xml
+[2024-04-20 12:01:55,143 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmp6j8kjzm1/rouge_conf.xml
+[2024-04-20 12:02:35,491 INFO] Rouges at step 35000 
+>> ROUGE-F(1/2/3/l): 42.87/20.05/39.29
+ROUGE-R(1/2/3/l): 53.73/25.11/49.19
+
+[2024-04-20 12:02:35,491 INFO] Validation xent: 5.38413 at step 35000

@@ -1,0 +1,22 @@
+[2024-04-20 00:35:34,116 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier_35000/model_step_35000.pt
+[2024-04-20 00:36:44,184 INFO] Loading checkpoint from /home/wjm/hrx/BertSum_cnndm/models/bert_classifier_35000/model_step_35000.pt
+[2024-04-20 00:36:46,924 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2024-04-20 00:36:46,927 INFO] * number of parameters: 109483009
+[2024-04-20 00:37:06,367 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2024-04-20 00:37:25,362 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2024-04-20 00:37:44,498 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2024-04-20 00:38:03,718 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2024-04-20 00:38:22,921 INFO] Loading test dataset from /home/wjm/hrx/BertSum_cnndm/bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2024-04-20 00:38:37,609 INFO] Writing summaries.
+[2024-04-20 00:38:37,610 INFO] Processing summaries. Saving system files to ../temp/tmppbl3ci1y/system and model files to ../temp/tmppbl3ci1y/model.
+[2024-04-20 00:38:37,610 INFO] Processing files in ../temp/rouge-tmp-2024-04-20-00-38-37/candidate/.
+[2024-04-20 00:38:37,880 INFO] Saved processed files to ../temp/tmppbl3ci1y/system.
+[2024-04-20 00:38:37,880 INFO] Processing files in ../temp/rouge-tmp-2024-04-20-00-38-37/reference/.
+[2024-04-20 00:38:38,150 INFO] Saved processed files to ../temp/tmppbl3ci1y/model.
+[2024-04-20 00:38:38,180 INFO] Written ROUGE configuration to ../temp/tmp7pd01rl6/rouge_conf.xml
+[2024-04-20 00:38:38,181 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmp7pd01rl6/rouge_conf.xml
+[2024-04-20 00:39:17,732 INFO] Rouges at step 35000 
+>> ROUGE-F(1/2/3/l): 42.88/20.05/39.35
+ROUGE-R(1/2/3/l): 53.16/24.84/48.73
+
+[2024-04-20 00:39:17,732 INFO] Validation xent: 5.37885 at step 35000
