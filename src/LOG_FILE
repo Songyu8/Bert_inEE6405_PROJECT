@@ -1,0 +1,193 @@
+[2023-03-25 16:17:07,927 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:17:10,413 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:17:10,415 INFO] * number of parameters: 109483009
+[2023-03-25 16:17:27,432 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:17:43,906 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:18:00,343 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:18:16,997 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 16:18:33,572 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 16:18:50,291 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 16:19:01,554 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 16:19:01,632 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_10.pt
+[2023-03-25 16:19:03,097 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:19:03,099 INFO] * number of parameters: 109483009
+[2023-03-25 16:19:19,821 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:19:36,572 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:19:53,178 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:20:18,937 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:20:21,431 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:20:21,434 INFO] * number of parameters: 109483009
+[2023-03-25 16:20:38,713 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:20:55,456 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:21:12,067 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:21:28,868 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 16:21:45,566 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 16:22:02,380 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 16:22:13,706 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 16:22:13,782 INFO] PPL [(1490.3119622952047, '/home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt')]
+[2023-03-25 16:22:13,783 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:22:15,262 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 16:22:15,264 INFO] * number of parameters: 109483009
+[2023-03-25 16:22:31,959 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 16:22:48,909 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 16:23:05,712 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 16:23:22,606 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 16:23:39,398 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 16:30:15,795 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:30:18,256 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:30:18,259 INFO] * number of parameters: 109483009
+[2023-03-25 16:30:35,259 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:30:51,723 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:31:08,113 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:31:24,753 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 16:31:41,340 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 16:31:58,061 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 16:32:09,326 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 16:32:09,401 INFO] PPL [(1490.3119622952047, '/home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt')]
+[2023-03-25 16:32:09,401 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:32:10,917 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 16:32:10,919 INFO] * number of parameters: 109483009
+[2023-03-25 16:32:27,548 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 16:32:44,427 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 16:33:01,165 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 16:33:18,010 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 16:33:34,756 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 16:33:47,854 INFO] Writing summaries.
+[2023-03-25 16:33:47,854 INFO] Processing summaries. Saving system files to ../temp/tmp6pit1j2f/system and model files to ../temp/tmp6pit1j2f/model.
+[2023-03-25 16:33:47,854 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-16-33-47/candidate/.
+[2023-03-25 16:33:48,478 INFO] Saved processed files to ../temp/tmp6pit1j2f/system.
+[2023-03-25 16:33:48,478 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-16-33-47/reference/.
+[2023-03-25 16:33:49,093 INFO] Saved processed files to ../temp/tmp6pit1j2f/model.
+[2023-03-25 16:33:49,147 INFO] Written ROUGE configuration to ../temp/tmp6fur6ym4/rouge_conf.xml
+[2023-03-25 16:33:49,147 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmp6fur6ym4/rouge_conf.xml
+[2023-03-25 16:36:30,911 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:36:33,380 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:36:33,383 INFO] * number of parameters: 109483009
+[2023-03-25 16:36:50,426 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:37:06,949 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:37:23,409 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:37:40,099 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 16:37:56,711 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 16:38:13,450 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 16:38:24,725 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 16:38:24,800 INFO] PPL [(1490.3119622952047, '/home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt')]
+[2023-03-25 16:38:24,800 INFO] Loading checkpoint from /home/wjm/code-space/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:38:26,276 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 16:38:26,278 INFO] * number of parameters: 109483009
+[2023-03-25 16:38:42,915 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 16:38:59,809 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 16:39:16,566 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 16:39:33,437 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 16:39:50,210 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 16:40:03,280 INFO] Writing summaries.
+[2023-03-25 16:40:03,280 INFO] Processing summaries. Saving system files to ../temp/tmpt_drcreu/system and model files to ../temp/tmpt_drcreu/model.
+[2023-03-25 16:40:03,280 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-16-40-02/candidate/.
+[2023-03-25 16:40:03,899 INFO] Saved processed files to ../temp/tmpt_drcreu/system.
+[2023-03-25 16:40:03,899 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-16-40-02/reference/.
+[2023-03-25 16:40:04,517 INFO] Saved processed files to ../temp/tmpt_drcreu/model.
+[2023-03-25 16:40:04,571 INFO] Written ROUGE configuration to ../temp/tmpmwoc88wn/rouge_conf.xml
+[2023-03-25 16:40:04,571 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmpmwoc88wn/rouge_conf.xml
+[2023-03-25 16:40:41,966 INFO] Rouges at step 5 
+>> ROUGE-F(1/2/3/l): 34.59/12.65/31.11
+ROUGE-R(1/2/3/l): 42.96/16.03/38.63
+
+[2023-03-25 16:40:41,966 INFO] Validation xent: 1492.61 at step 5
+[2023-03-25 16:56:30,511 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:56:32,992 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 16:56:32,994 INFO] * number of parameters: 109483009
+[2023-03-25 16:56:50,057 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 16:57:06,583 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 16:57:23,024 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 16:57:39,716 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 16:57:56,325 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 16:58:13,067 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 16:58:24,346 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 16:58:24,422 INFO] PPL [(1490.3119622952047, '/home/wjm/hrx/BertSum/models/bert_classifier/model_step_5.pt')]
+[2023-03-25 16:58:24,422 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 16:58:25,934 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 16:58:25,936 INFO] * number of parameters: 109483009
+[2023-03-25 16:58:42,570 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 16:58:59,455 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 16:59:16,203 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 16:59:33,049 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 16:59:49,799 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 17:00:02,899 INFO] Writing summaries.
+[2023-03-25 17:00:02,899 INFO] Processing summaries. Saving system files to ../temp/tmpagqy2th3/system and model files to ../temp/tmpagqy2th3/model.
+[2023-03-25 17:00:02,899 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-00-02/candidate/.
+[2023-03-25 17:00:03,493 INFO] Saved processed files to ../temp/tmpagqy2th3/system.
+[2023-03-25 17:00:03,493 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-00-02/reference/.
+[2023-03-25 17:00:04,110 INFO] Saved processed files to ../temp/tmpagqy2th3/model.
+[2023-03-25 17:00:04,163 INFO] Written ROUGE configuration to ../temp/tmp713eezkn/rouge_conf.xml
+[2023-03-25 17:00:04,163 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmp713eezkn/rouge_conf.xml
+[2023-03-25 17:00:42,118 INFO] Rouges at step 5 
+>> ROUGE-F(1/2/3/l): 34.59/12.65/31.11
+ROUGE-R(1/2/3/l): 42.96/16.03/38.63
+
+[2023-03-25 17:00:42,119 INFO] Validation xent: 1492.61 at step 5
+[2023-03-25 17:06:26,646 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 17:06:29,071 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 17:06:29,074 INFO] * number of parameters: 109483009
+[2023-03-25 17:06:46,122 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 17:07:02,648 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 17:07:19,110 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 17:07:35,811 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 17:07:52,434 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 17:08:09,197 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 17:08:20,496 INFO] Validation xent: 1490.31 at step 5
+[2023-03-25 17:08:20,572 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_classifier/model_step_5.pt
+[2023-03-25 17:08:22,083 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 17:08:22,085 INFO] * number of parameters: 109483009
+[2023-03-25 17:08:38,751 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 17:08:55,677 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 17:09:12,460 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 17:09:29,332 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 17:09:46,107 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 17:09:59,227 INFO] Writing summaries.
+[2023-03-25 17:09:59,228 INFO] Processing summaries. Saving system files to ../temp/tmpeu2wcl9a/system and model files to ../temp/tmpeu2wcl9a/model.
+[2023-03-25 17:09:59,228 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-09-58/candidate/.
+[2023-03-25 17:09:59,853 INFO] Saved processed files to ../temp/tmpeu2wcl9a/system.
+[2023-03-25 17:09:59,853 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-09-58/reference/.
+[2023-03-25 17:10:00,471 INFO] Saved processed files to ../temp/tmpeu2wcl9a/model.
+[2023-03-25 17:10:00,532 INFO] Written ROUGE configuration to ../temp/tmpq45pb15_/rouge_conf.xml
+[2023-03-25 17:10:00,532 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmpq45pb15_/rouge_conf.xml
+[2023-03-25 17:10:38,545 INFO] Rouges at step 5 
+>> ROUGE-F(1/2/3/l): 34.59/12.65/31.11
+ROUGE-R(1/2/3/l): 42.96/16.03/38.63
+
+[2023-03-25 17:10:38,545 INFO] Validation xent: 1492.61 at step 5
+[2023-03-25 17:31:33,097 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_transformer/model_step_50.pt
+[2023-03-25 17:31:35,689 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 17:31:35,700 INFO] * number of parameters: 120512513
+[2023-03-25 17:31:52,972 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 17:32:09,739 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 17:32:35,067 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_transformer/model_step_50.pt
+[2023-03-25 17:32:37,711 INFO] Loading valid dataset from ../bert_data/cnndm.valid.0.bert.pt, number of examples: 2001
+[2023-03-25 17:32:37,722 INFO] * number of parameters: 120512513
+[2023-03-25 17:32:55,181 INFO] Loading valid dataset from ../bert_data/cnndm.valid.1.bert.pt, number of examples: 2001
+[2023-03-25 17:33:12,150 INFO] Loading valid dataset from ../bert_data/cnndm.valid.2.bert.pt, number of examples: 2001
+[2023-03-25 17:33:28,999 INFO] Loading valid dataset from ../bert_data/cnndm.valid.3.bert.pt, number of examples: 2000
+[2023-03-25 17:33:46,051 INFO] Loading valid dataset from ../bert_data/cnndm.valid.4.bert.pt, number of examples: 2001
+[2023-03-25 17:34:03,023 INFO] Loading valid dataset from ../bert_data/cnndm.valid.5.bert.pt, number of examples: 2001
+[2023-03-25 17:34:20,114 INFO] Loading valid dataset from ../bert_data/cnndm.valid.6.bert.pt, number of examples: 1362
+[2023-03-25 17:34:31,630 INFO] Validation xent: 6.18025 at step 50
+[2023-03-25 17:34:31,710 INFO] Loading checkpoint from /home/wjm/hrx/BertSum/models/bert_transformer/model_step_50.pt
+[2023-03-25 17:34:33,378 INFO] Loading test dataset from ../bert_data/cnndm.test.0.bert.pt, number of examples: 2001
+[2023-03-25 17:34:33,380 INFO] * number of parameters: 120512513
+[2023-03-25 17:34:50,350 INFO] Loading test dataset from ../bert_data/cnndm.test.1.bert.pt, number of examples: 2001
+[2023-03-25 17:35:07,589 INFO] Loading test dataset from ../bert_data/cnndm.test.2.bert.pt, number of examples: 2001
+[2023-03-25 17:35:24,691 INFO] Loading test dataset from ../bert_data/cnndm.test.3.bert.pt, number of examples: 2001
+[2023-03-25 17:35:41,880 INFO] Loading test dataset from ../bert_data/cnndm.test.4.bert.pt, number of examples: 2000
+[2023-03-25 17:35:58,967 INFO] Loading test dataset from ../bert_data/cnndm.test.5.bert.pt, number of examples: 1485
+[2023-03-25 17:36:12,322 INFO] Writing summaries.
+[2023-03-25 17:36:12,323 INFO] Processing summaries. Saving system files to ../temp/tmpfsee36xj/system and model files to ../temp/tmpfsee36xj/model.
+[2023-03-25 17:36:12,323 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-36-11/candidate/.
+[2023-03-25 17:36:12,958 INFO] Saved processed files to ../temp/tmpfsee36xj/system.
+[2023-03-25 17:36:12,958 INFO] Processing files in ../temp/rouge-tmp-2023-03-25-17-36-11/reference/.
+[2023-03-25 17:36:13,575 INFO] Saved processed files to ../temp/tmpfsee36xj/model.
+[2023-03-25 17:36:13,628 INFO] Written ROUGE configuration to ../temp/tmpwj7747zf/rouge_conf.xml
+[2023-03-25 17:36:13,629 INFO] Running ROUGE with command /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/ROUGE-1.5.5.pl -e /home/wjm/hrx/pyrouge/tools/ROUGE-1.5.5/data -c 95 -m -r 1000 -n 2 -a ../temp/tmpwj7747zf/rouge_conf.xml
+[2023-03-25 17:36:52,235 INFO] Rouges at step 50 
+>> ROUGE-F(1/2/3/l): 39.56/17.18/36.02
+ROUGE-R(1/2/3/l): 50.28/21.81/45.73
+
+[2023-03-25 17:36:52,235 INFO] Validation xent: 6.13481 at step 50
